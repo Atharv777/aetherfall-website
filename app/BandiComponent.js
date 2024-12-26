@@ -23,7 +23,7 @@ export default function BandiComponent() {
 
                     <div className="flex gap-3">
                         <img src="tick.svg" className="w-10 h-fit" draggable={false} />
-                        <p className="text-sm text-[#d7d7d7]/70"><span className="text-[#d7d7d7]">Nuke (HAIL HITLER):</span> Triggers a massive explosion capable of annihilating everything nearby. A devastating ability for wiping out large areas of enemies.</p>
+                        <p className="text-sm text-[#d7d7d7]/70"><span className="text-[#d7d7d7]">Nuke:</span> Triggers a massive explosion capable of annihilating everything nearby. A devastating ability for wiping out large areas of enemies.</p>
                     </div>
 
                     <div className="flex gap-3">
@@ -133,7 +133,7 @@ export default function BandiComponent() {
 
                     <div className="flex gap-3">
                         <img src="tick.svg" className="w-10 h-fit" draggable={false} />
-                        <p className="text-sm text-[#d7d7d7]/70"><span className="text-[#d7d7d7]">Nuke (HAIL HITLER):</span> Triggers a massive explosion capable of annihilating everything nearby. A devastating ability for wiping out large areas of enemies.</p>
+                        <p className="text-sm text-[#d7d7d7]/70"><span className="text-[#d7d7d7]">Nuke:</span> Triggers a massive explosion capable of annihilating everything nearby. A devastating ability for wiping out large areas of enemies.</p>
                     </div>
                 </div>
                 <div className="flex flex-col gap-8 w-[50%] lg:w-[30%] xl:w-[45%] items-end justify-center lg:pl-24">
@@ -288,7 +288,7 @@ export default function BandiComponent() {
 
                     <div className="flex gap-3">
                         <img src="tick.svg" className="w-10 h-fit" draggable={false} />
-                        <p className="text-sm text-[#d7d7d7]/70"><span className="text-[#d7d7d7]">Nuke (HAIL HITLER):</span> Triggers a massive explosion capable of annihilating everything nearby. A devastating ability for wiping out large areas of enemies.</p>
+                        <p className="text-sm text-[#d7d7d7]/70"><span className="text-[#d7d7d7]">Nuke:</span> Triggers a massive explosion capable of annihilating everything nearby. A devastating ability for wiping out large areas of enemies.</p>
                     </div>
 
                     <div className="flex gap-3">
@@ -410,7 +410,7 @@ export default function BandiComponent() {
 
                     <div className="flex gap-3">
                         <img src="tick.svg" className="w-10 h-fit" draggable={false} />
-                        <p className="text-sm text-[#d7d7d7]/70"><span className="text-[#d7d7d7]">Nuke (HAIL HITLER):</span> Triggers a massive explosion capable of annihilating everything nearby. A devastating ability for wiping out large areas of enemies.</p>
+                        <p className="text-sm text-[#d7d7d7]/70"><span className="text-[#d7d7d7]">Nuke:</span> Triggers a massive explosion capable of annihilating everything nearby. A devastating ability for wiping out large areas of enemies.</p>
                     </div>
                 </div>
             </div>
