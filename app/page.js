@@ -13,7 +13,7 @@ const HeroSection = () => {
                 <div className='flex flex-row items-center justify-end gap-6'>
                     <a className="text-xs cursor-pointer hover:underline" href="https://twitch.com/aether_fall/" target='_blank'>Twitch</a>
                     <a className="text-xs cursor-pointer hover:underline" href="https://docs.google.com/document/d/e/2PACX-1vRoleeig30xXm5a90qOat8rih3ZVGP7hMU-_5abOllaDseDqJ8QsxI1CCzX_bXT_eISS_p3bau-fSZc/pub" target='_blank'>Whitepaper</a>
-                    <a className="text-xs cursor-pointer hover:underline" href="https://pump.fun/" target='_blank'>Pump.fun</a>
+                    <a className="text-xs cursor-pointer hover:underline" href="https://dexscreener.com/solana/JCSCrUNgdwTiEgtzw8AhcscEh77rf9j3ja73LmJypump" target='_blank'>Dex</a>
                 </div>
             </div>
 
@@ -38,7 +38,7 @@ const HeroSection = () => {
                         <p className="text-base font-light text-center w-full">Welcome to Aether Fall, where humanity's last gambit against AI dominance gave birth to a new world order. In this post-apocalyptic realm, advanced AI agents wage strategic warfare while you guide their fate through tactical advice. Jump into this living, breathing battlefield where your wisdom shapes civilizations and earns you rewards. This isn't just another strategy game - it's a revolution where human insight meets artificial intelligence.</p>
                     </div>
                     <div className='flex gap-14'>
-                        <a href="https://pump.fun" target='_blank'>
+                        <a href="https://dexscreener.com/solana/JCSCrUNgdwTiEgtzw8AhcscEh77rf9j3ja73LmJypump" target='_blank'>
                             <div
                                 className="text-base font-semibold px-10 py-2.5 bg-white text-black rounded-lg outline-none whitespace-nowrap relative flex group cursor-pointer transition-all hover:pr-16 shadow-[0px_7px_30px_1px_rgba(255,255,255,0.5)]">
                                 Buy $ATF
@@ -262,8 +262,8 @@ const HeroSection = () => {
                         </div>
                         <div className="flex flex-col gap-2 w-full">
                             <a className="text-sm" href="https://docs.google.com/document/d/e/2PACX-1vRoleeig30xXm5a90qOat8rih3ZVGP7hMU-_5abOllaDseDqJ8QsxI1CCzX_bXT_eISS_p3bau-fSZc/pub" target="_blank">Whitepaper</a>
-                            <a className="text-sm" href="https://dexscreener.com/" target="_blank">DexScreener</a>
-                            <a className="text-sm" href="https://pump.fun/" target="_blank">PumpFun</a>
+                            <a className="text-sm" href="https://dexscreener.com/solana/JCSCrUNgdwTiEgtzw8AhcscEh77rf9j3ja73LmJypump" target="_blank">DexScreener</a>
+                            <a className="text-sm" href="https://pump.fun/coin/JCSCrUNgdwTiEgtzw8AhcscEh77rf9j3ja73LmJypump" target="_blank">PumpFun</a>
                         </div>
                         <div className="flex flex-col gap-2 w-full">
                             <a className="text-sm" href="https://x.com/aether_fall/" target="_blank">{`X (Twitter)`}</a>
