@@ -1,10 +1,6 @@
 "use client"
-import React, { useEffect, useRef, useState } from 'react';
-import { gsap } from 'gsap';
-import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import React from 'react';
 import BandiComponent from './BandiComponent';
-
-gsap.registerPlugin(ScrollTrigger);
 
 const HeroSection = () => {
 
@@ -16,8 +12,8 @@ const HeroSection = () => {
                 </div>
                 <div className='flex flex-row items-center justify-end gap-6'>
                     <a className="text-xs cursor-pointer hover:underline" href="https://twitch.com/aether_fall/" target='_blank'>Twitch</a>
-                    <a className="text-xs cursor-pointer hover:underline" href="https://pump.fun/">Pump.fun</a>
-                    <a className="text-xs cursor-pointer hover:underline" href="https://docs.google.com/">Pump.fun</a>
+                    <a className="text-xs cursor-pointer hover:underline" href="https://docs.google.com/document/d/e/2PACX-1vRoleeig30xXm5a90qOat8rih3ZVGP7hMU-_5abOllaDseDqJ8QsxI1CCzX_bXT_eISS_p3bau-fSZc/pub" target='_blank'>Whitepaper</a>
+                    <a className="text-xs cursor-pointer hover:underline" href="https://pump.fun/" target='_blank'>Pump.fun</a>
                 </div>
             </div>
 
@@ -42,32 +38,31 @@ const HeroSection = () => {
                         <p className="text-base font-light text-center w-full">Welcome to Aether Fall, where humanity's last gambit against AI dominance gave birth to a new world order. In this post-apocalyptic realm, advanced AI agents wage strategic warfare while you guide their fate through tactical advice. Jump into this living, breathing battlefield where your wisdom shapes civilizations and earns you rewards. This isn't just another strategy game - it's a revolution where human insight meets artificial intelligence.</p>
                     </div>
                     <div className='flex gap-14'>
-                        <div
-                            className="text-base font-semibold px-10 py-2.5 bg-white text-black rounded-lg outline-none whitespace-nowrap relative flex group cursor-pointer transition-all hover:pr-16 shadow-[0px_7px_30px_1px_rgba(255,255,255,0.5)]">
-                            <a href="https://pump.fun">
-                                Buy $AETHER
-                            </a>
-                            <svg className="right-5 group-hover:opacity-100 opacity-0 text-black/80 absolute transition"
-                                xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
-                                stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                                <path d="M15 3h6v6"></path>
-                                <path d="M10 14 21 3"></path>
-                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
-                            </svg>
-                        </div>
-                        <div
-                            className="text-base font-semibold px-10 py-2.5 outline-none whitespace-nowrap relative flex group cursor-pointer transition-all bg-white text-black rounded-lg hover:pr-16 shadow-[0px_7px_30px_1px_rgba(255,255,255,0.5)]">
-                            <a href="">
+                        <a href="https://pump.fun" target='_blank'>
+                            <div
+                                className="text-base font-semibold px-10 py-2.5 bg-white text-black rounded-lg outline-none whitespace-nowrap relative flex group cursor-pointer transition-all hover:pr-16 shadow-[0px_7px_30px_1px_rgba(255,255,255,0.5)]">
+                                Buy $ATF
+                                <svg className="right-5 group-hover:opacity-100 opacity-0 text-black/80 absolute transition"
+                                    xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                                    stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                                    <path d="M15 3h6v6"></path>
+                                    <path d="M10 14 21 3"></path>
+                                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                </svg>
+                            </div>
+                        </a>
+                        <a href="https://t.me/Aether_Fall" target='_blank'>
+                            <div className="text-base font-semibold px-10 py-2.5 outline-none whitespace-nowrap relative flex group cursor-pointer transition-all bg-white text-black rounded-lg hover:pr-16 shadow-[0px_7px_30px_1px_rgba(255,255,255,0.5)]">
                                 Play on Telegram
-                            </a>
-                            <svg className="right-5 group-hover:opacity-100 opacity-0 text-black/80 absolute transition"
-                                xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
-                                stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                                <path d="M15 3h6v6"></path>
-                                <path d="M10 14 21 3"></path>
-                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
-                            </svg>
-                        </div>
+                                <svg className="right-5 group-hover:opacity-100 opacity-0 text-black/80 absolute transition"
+                                    xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                                    stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                                    <path d="M15 3h6v6"></path>
+                                    <path d="M10 14 21 3"></path>
+                                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                </svg>
+                            </div>
+                        </a>
                     </div>
                 </div>
 
@@ -83,7 +78,7 @@ const HeroSection = () => {
                                 <h2 className="text-2xl font-medium">8 bots, 1 kill switch</h2>
                                 <p className="text-sm font-light text-white/50">8 AI Emperors, 8 Realms, 1 Kill Switch. They fight for the key to controlling the universe. You guide your Emperor and shape their destiny.</p>
 
-                                <button className="text-sm font-medium px-4 py-1.5 outline-none whitespace-nowrap bottom-0 absolute w-max flex opacity-0 group-hover/card:opacity-100 group/btn bg-white text-black rounded-lg hover:pr-10 shadow-[0px_7px_30px_-6px_rgba(255,255,255,0.5)] transition-all backdrop-blur-[1px]" onClick={() => window.open('https://', '_blank')}>
+                                <button className="text-sm font-medium px-4 py-1.5 outline-none whitespace-nowrap bottom-0 absolute w-max flex opacity-0 group-hover/card:opacity-100 group/btn bg-white text-black rounded-lg hover:pr-10 shadow-[0px_7px_30px_-6px_rgba(255,255,255,0.5)] transition-all backdrop-blur-[1px]" onClick={() => window.open('https://docs.google.com/document/d/e/2PACX-1vRoleeig30xXm5a90qOat8rih3ZVGP7hMU-_5abOllaDseDqJ8QsxI1CCzX_bXT_eISS_p3bau-fSZc/pub', '_blank')}>
                                     View More
                                     <svg className="right-2 group-hover/btn:opacity-100 opacity-0 text-black/80 absolute transition"
                                         xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
@@ -108,7 +103,7 @@ const HeroSection = () => {
                                 <h2 className="text-2xl font-medium">HODL for your Agent</h2>
                                 <p className="text-sm font-light text-white/50">HODL your tokens, fuel your Agent's ascent, conquer the Aether.</p>
 
-                                <button className="text-sm font-medium px-4 py-1.5 outline-none whitespace-nowrap bottom-0 absolute w-max flex opacity-0 group-hover/card:opacity-100 group/btn bg-white text-black rounded-lg hover:pr-10 shadow-[0px_7px_30px_-6px_rgba(255,255,255,0.5)] transition-all backdrop-blur-[1px]" onClick={() => window.open('https://', '_blank')}>
+                                <button className="text-sm font-medium px-4 py-1.5 outline-none whitespace-nowrap bottom-0 absolute w-max flex opacity-0 group-hover/card:opacity-100 group/btn bg-white text-black rounded-lg hover:pr-10 shadow-[0px_7px_30px_-6px_rgba(255,255,255,0.5)] transition-all backdrop-blur-[1px]" onClick={() => window.open('https://docs.google.com/document/d/e/2PACX-1vRoleeig30xXm5a90qOat8rih3ZVGP7hMU-_5abOllaDseDqJ8QsxI1CCzX_bXT_eISS_p3bau-fSZc/pub', '_blank')}>
                                     View More
                                     <svg className="right-2 group-hover/btn:opacity-100 opacity-0 text-black/80 absolute transition"
                                         xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
@@ -134,7 +129,7 @@ const HeroSection = () => {
                                 <h2 className="text-2xl font-medium">You stratergize, Agents fight</h2>
                                 <p className="text-sm font-light text-white/50">Master the art of strategy. Command your Agents and  conquer the battlefield.</p>
 
-                                <button className="text-sm font-medium px-4 py-1.5 outline-none whitespace-nowrap bottom-0 absolute w-max flex opacity-0 group-hover/card:opacity-100 group/btn bg-white text-black rounded-lg hover:pr-10 shadow-[0px_7px_30px_-3px_rgba(255,255,255,0.5)] transition-all backdrop-blur-[1px]" onClick={() => window.open('https://', '_blank')}>
+                                <button className="text-sm font-medium px-4 py-1.5 outline-none whitespace-nowrap bottom-0 absolute w-max flex opacity-0 group-hover/card:opacity-100 group/btn bg-white text-black rounded-lg hover:pr-10 shadow-[0px_7px_30px_-3px_rgba(255,255,255,0.5)] transition-all backdrop-blur-[1px]" onClick={() => window.open('https://docs.google.com/document/d/e/2PACX-1vRoleeig30xXm5a90qOat8rih3ZVGP7hMU-_5abOllaDseDqJ8QsxI1CCzX_bXT_eISS_p3bau-fSZc/pub', '_blank')}>
                                     View More
                                     <svg className="right-2 group-hover/btn:opacity-100 opacity-0 text-black/80 absolute transition"
                                         xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
@@ -157,7 +152,7 @@ const HeroSection = () => {
                                 <h2 className="text-2xl font-medium">Choose from 1280 Unique Moves</h2>
                                 <p className="text-sm font-light text-white/50">Command your Agent with a devastating arsenal of attacks, including the electrifying Lightning, the swirling Tornadoes, and the earth-shattering Meteor, among many others.</p>
 
-                                <button className="text-sm font-medium px-4 py-1.5 outline-none whitespace-nowrap bottom-0 absolute w-max flex opacity-0 group-hover/card:opacity-100 group/btn bg-white text-black rounded-lg hover:pr-10 shadow-[0px_7px_30px_-3px_rgba(255,255,255,0.5)] transition-all backdrop-blur-[1px]" onClick={() => window.open('https://', '_blank')}>
+                                <button className="text-sm font-medium px-4 py-1.5 outline-none whitespace-nowrap bottom-0 absolute w-max flex opacity-0 group-hover/card:opacity-100 group/btn bg-white text-black rounded-lg hover:pr-10 shadow-[0px_7px_30px_-3px_rgba(255,255,255,0.5)] transition-all backdrop-blur-[1px]" onClick={() => window.open('https://docs.google.com/document/d/e/2PACX-1vRoleeig30xXm5a90qOat8rih3ZVGP7hMU-_5abOllaDseDqJ8QsxI1CCzX_bXT_eISS_p3bau-fSZc/pub', '_blank')}>
                                     View More
                                     <svg className="right-2 group-hover/btn:opacity-100 opacity-0 text-black/80 absolute transition"
                                         xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
@@ -261,14 +256,14 @@ const HeroSection = () => {
 
                     <div className="flex flex-row justify-end gap-24 w-1/2 max-w-[700px]">
                         <div className="flex flex-col gap-2 w-full">
-                            <a className="text-sm">Home</a>
-                            <a className="text-sm">Features</a>
-                            <a className="text-sm">Agents</a>
+                            <a className="text-sm cursor-pointer" onClick={() => scroll}>Home</a>
+                            <a className="text-sm cursor-pointer" onClick={() => scroll}>Features</a>
+                            <a className="text-sm cursor-pointer" onClick={() => scroll}>Agents</a>
                         </div>
                         <div className="flex flex-col gap-2 w-full">
-                            <a className="text-sm" href="https://pump.fun" target="_blank">Whitepaper</a>
+                            <a className="text-sm" href="https://docs.google.com/document/d/e/2PACX-1vRoleeig30xXm5a90qOat8rih3ZVGP7hMU-_5abOllaDseDqJ8QsxI1CCzX_bXT_eISS_p3bau-fSZc/pub" target="_blank">Whitepaper</a>
                             <a className="text-sm" href="https://dexscreener.com/" target="_blank">DexScreener</a>
-                            <a className="text-sm" href="https://pump.fun" target="_blank">PumpFun</a>
+                            <a className="text-sm" href="https://pump.fun/" target="_blank">PumpFun</a>
                         </div>
                         <div className="flex flex-col gap-2 w-full">
                             <a className="text-sm" href="https://x.com/aether_fall/" target="_blank">{`X (Twitter)`}</a>

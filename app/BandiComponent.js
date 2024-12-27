@@ -34,7 +34,7 @@ export default function BandiComponent() {
                 <div className="flex flex-col gap-8 w-[50%] lg:w-[30%] xl:w-[45%] items-end justify-center lg:pl-24">
                     <div className="flex flex-col gap-3 items-center">
                         <img src="agent1.png" className="w-[300px] h-[400px] object-cover mx-5 rounded-2xl" draggable={false} />
-                        <a href="https://pump.fun">
+                        <a href="https://t.me/aether_fall/">
                             <div className="text-base font-semibold px-10 py-2.5 bg-white text-black rounded-lg outline-none whitespace-nowrap relative flex cursor-pointer transition-all shadow-[0px_7px_30px_1px_rgba(255,255,255,0.5)] mt-5 hover:bg-white/80">
                                 Shill this MFer
                             </div>
@@ -57,7 +57,7 @@ export default function BandiComponent() {
 
                     <div className="flex flex-col gap-3 items-center">
                         <img src="agent2.png" className="w-[300px] h-[400px] object-cover mx-5 rounded-2xl" draggable={false} />
-                        <a href="https://pump.fun">
+                        <a href="https://t.me/aether_fall/">
                             <div className="text-base font-semibold px-10 py-2.5 bg-white text-black rounded-lg outline-none whitespace-nowrap relative flex cursor-pointer transition-all shadow-[0px_7px_30px_1px_rgba(255,255,255,0.5)] mt-5 hover:bg-white/80">
                                 Shill this MFer
                             </div>
@@ -140,7 +140,7 @@ export default function BandiComponent() {
 
                     <div className="flex flex-col gap-3 items-center">
                         <img src="agent3.png" className="w-[300px] h-[400px] object-cover mx-5 rounded-2xl" draggable={false} />
-                        <a href="https://pump.fun">
+                        <a href="https://t.me/aether_fall/">
                             <div className="text-base font-semibold px-10 py-2.5 bg-white text-black rounded-lg outline-none whitespace-nowrap relative flex cursor-pointer transition-all shadow-[0px_7px_30px_1px_rgba(255,255,255,0.5)] mt-5 hover:bg-white/80">
                                 Shill this MFer
                             </div>
@@ -164,7 +164,7 @@ export default function BandiComponent() {
 
                     <div className="flex flex-col gap-3 items-center">
                         <img src="agent4.png" className="w-[300px] h-[400px] object-cover mx-5 rounded-2xl" draggable={false} />
-                        <a href="https://pump.fun">
+                        <a href="https://t.me/aether_fall/">
                             <div className="text-base font-semibold px-10 py-2.5 bg-white text-black rounded-lg outline-none whitespace-nowrap relative flex cursor-pointer transition-all shadow-[0px_7px_30px_1px_rgba(255,255,255,0.5)] mt-5 hover:bg-white/80">
                                 Shill this MFer
                             </div>
@@ -248,7 +248,7 @@ export default function BandiComponent() {
 
                     <div className="flex flex-col gap-3 items-center">
                         <img src="agent5.png" className="w-[300px] h-[400px] object-cover mx-5 rounded-2xl" draggable={false} />
-                        <a href="https://pump.fun">
+                        <a href="https://t.me/aether_fall/">
                             <div className="text-base font-semibold px-10 py-2.5 bg-white text-black rounded-lg outline-none whitespace-nowrap relative flex cursor-pointer transition-all shadow-[0px_7px_30px_1px_rgba(255,255,255,0.5)] mt-5 hover:bg-white/80">
                                 Shill this MFer
                             </div>
@@ -271,7 +271,7 @@ export default function BandiComponent() {
 
                     <div className="flex flex-col gap-3 items-center">
                         <img src="agent6.png" className="w-[300px] h-[400px] object-cover mx-5 rounded-2xl" draggable={false} />
-                        <a href="https://pump.fun">
+                        <a href="https://t.me/aether_fall/">
                             <div className="text-base font-semibold px-10 py-2.5 bg-white text-black rounded-lg outline-none whitespace-nowrap relative flex cursor-pointer transition-all shadow-[0px_7px_30px_1px_rgba(255,255,255,0.5)] mt-5 hover:bg-white/80">
                                 Shill this MFer
                             </div>
@@ -354,7 +354,7 @@ export default function BandiComponent() {
 
                     <div className="flex flex-col gap-3 items-center">
                         <img src="agent7.png" className="w-[300px] h-[400px] object-cover mx-5 rounded-2xl" draggable={false} />
-                        <a href="https://pump.fun">
+                        <a href="https://t.me/aether_fall/">
                             <div className="text-base font-semibold px-10 py-2.5 bg-white text-black rounded-lg outline-none whitespace-nowrap relative flex cursor-pointer transition-all shadow-[0px_7px_30px_1px_rgba(255,255,255,0.5)] mt-5 hover:bg-white/80">
                                 Shill this MFer
                             </div>
@@ -378,7 +378,7 @@ export default function BandiComponent() {
 
                     <div className="flex flex-col gap-3 items-center">
                         <img src="agent8.png" className="w-[300px] h-[400px] object-cover mx-5 rounded-2xl" draggable={false} />
-                        <a href="https://pump.fun">
+                        <a href="https://t.me/aether_fall/">
                             <div className="text-base font-semibold px-10 py-2.5 bg-white text-black rounded-lg outline-none whitespace-nowrap relative flex cursor-pointer transition-all shadow-[0px_7px_30px_1px_rgba(255,255,255,0.5)] mt-5 hover:bg-white/80">
                                 Shill this MFer
                             </div>
