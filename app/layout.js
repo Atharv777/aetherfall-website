@@ -7,8 +7,8 @@ const montserrat = Montserrat({
 });
 
 export const metadata = {
-    title: "Aether Fall",
-    description: "Aether Fall is a game produced by SAILAS Game Studio",
+    title: "ArcFall",
+    description: "ArcFall is a game produced by SAILAS Game Studio",
 
 };
 

@@ -8,10 +8,10 @@ const HeroSection = () => {
         <>
             <div className='px-10 py-2 w-[calc(100vw-15vh)] mx-[7.5vh] flex flex-row items-center justify-between mt-5 rounded-[15px] border-white/[0.07] border niceheader'>
                 <div>
-                    <img src="aether_text.png" alt="" className='h-[40px]' draggable={false} />
+                    <img src="arcfall_text.png" alt="" className='h-[40px]' draggable={false} />
                 </div>
                 <div className='flex flex-row items-center justify-end gap-6'>
-                    <a className="text-xs cursor-pointer hover:underline" href="https://twitch.com/aether_fall/" target='_blank'>Twitch</a>
+                    <a className="text-xs cursor-pointer hover:underline" href="https://twitch.com/arcfall/" target='_blank'>Twitch</a>
                     <a className="text-xs cursor-pointer hover:underline" href="https://docs.google.com/document/d/e/2PACX-1vRoleeig30xXm5a90qOat8rih3ZVGP7hMU-_5abOllaDseDqJ8QsxI1CCzX_bXT_eISS_p3bau-fSZc/pub" target='_blank'>Whitepaper</a>
                     <a className="text-xs cursor-pointer hover:underline" href="https://dexscreener.com/solana/JCSCrUNgdwTiEgtzw8AhcscEh77rf9j3ja73LmJypump" target='_blank'>Dex</a>
                 </div>
@@ -34,8 +34,8 @@ const HeroSection = () => {
                         </div>
                     </a>
                     <div className='flex flex-col justify-center items-center gap-7 w-1/2'>
-                        <img src="aether_text.png" alt="" className='h-[200px]' draggable={false} />
-                        <p className="text-base font-light text-center w-full">Welcome to Aether Fall, where humanity's last gambit against AI dominance gave birth to a new world order. In this post-apocalyptic realm, advanced AI agents wage strategic warfare while you guide their fate through tactical advice. Jump into this living, breathing battlefield where your wisdom shapes civilizations and earns you rewards. This isn't just another strategy game - it's a revolution where human insight meets artificial intelligence.</p>
+                        <img src="arcfall_text.png" alt="" className='h-[200px]' draggable={false} />
+                        <p className="text-base font-light text-center w-full">Welcome to ArcFall, where humanity's last gambit against AI dominance gave birth to a new world order. In this post-apocalyptic realm, advanced AI agents wage strategic warfare while you guide their fate through tactical advice. Jump into this living, breathing battlefield where your wisdom shapes civilizations and earns you rewards. This isn't just another strategy game - it's a revolution where human insight meets artificial intelligence.</p>
                     </div>
                     <div className='flex gap-14'>
                         <a href="https://dexscreener.com/solana/JCSCrUNgdwTiEgtzw8AhcscEh77rf9j3ja73LmJypump" target='_blank'>
@@ -51,7 +51,7 @@ const HeroSection = () => {
                                 </svg>
                             </div>
                         </a>
-                        <a href="https://t.me/Aether_Fall" target='_blank'>
+                        <a href="https://t.me/arcfall" target='_blank'>
                             <div className="text-base font-semibold px-10 py-2.5 outline-none whitespace-nowrap relative flex group cursor-pointer transition-all bg-white text-black rounded-lg hover:pr-16 shadow-[0px_7px_30px_1px_rgba(255,255,255,0.5)]">
                                 Play on Telegram
                                 <svg className="right-5 group-hover:opacity-100 opacity-0 text-black/80 absolute transition"
@@ -101,7 +101,7 @@ const HeroSection = () => {
 
                             <div className="absolute right-5 bottom-5 left-5 flex flex-col items-start gap-3 hover:pb-14 group/card transition-all">
                                 <h2 className="text-2xl font-medium">HODL for your Agent</h2>
-                                <p className="text-sm font-light text-white/50">HODL your tokens, fuel your Agent's ascent, conquer the Aether.</p>
+                                <p className="text-sm font-light text-white/50">HODL your tokens, fuel your Agent's ascent, conquer the Arc.</p>
 
                                 <button className="text-sm font-medium px-4 py-1.5 outline-none whitespace-nowrap bottom-0 absolute w-max flex opacity-0 group-hover/card:opacity-100 group/btn bg-white text-black rounded-lg hover:pr-10 shadow-[0px_7px_30px_-6px_rgba(255,255,255,0.5)] transition-all backdrop-blur-[1px]" onClick={() => window.open('https://docs.google.com/document/d/e/2PACX-1vRoleeig30xXm5a90qOat8rih3ZVGP7hMU-_5abOllaDseDqJ8QsxI1CCzX_bXT_eISS_p3bau-fSZc/pub', '_blank')}>
                                     View More
@@ -172,7 +172,7 @@ const HeroSection = () => {
                     <div className="flex flex-col gap-5 justify-center items-center w-full relative">
                         <p className="text-center text-5xl font-medium leading-[120%] tracking-[-1.08px] text-white w-2/3 omega">Interactive, Dynamic, Collaborative</p>
                         <p className="text-center text-5xl font-medium leading-[120%] tracking-[-1.08px] text-white w-2/3 omega absolute top-0 blur-xl">Interactive, Dynamic, Collaborative</p>
-                        <p className="text-center text-xl text-white/60 w-full">Aether Fall redefines strategy gaming with smarter, faster, and more immersive collaboration.</p>
+                        <p className="text-center text-xl text-white/60 w-full">ArcFall redefines strategy gaming with smarter, faster, and more immersive collaboration.</p>
                     </div>
 
                     <div className="relative mx-auto flex w-full justify-center gap-[55px] max-w-[1020px]">
@@ -251,7 +251,7 @@ const HeroSection = () => {
             <div className='w-screen px-20 py-12 pb-44 bg-white/[0.04] border-t border-white/10 rounded-t-2xl flex justify-center flex-col gap-[10px] text-white/90 relative'>
                 <div className="flex justify-between gap-[30px] relative z-10">
                     <div className="flex flex-col gap-3 w-1/4 box-border ">
-                        <img src="aether_text.png" alt="Aether Fall" className="h-[75px] w-fit" draggable={false} />
+                        <img src="arcfall_text.png" alt="ArcFall" className="h-[75px] w-fit" draggable={false} />
                     </div>
 
                     <div className="flex flex-row justify-end gap-24 w-1/2 max-w-[700px]">
@@ -266,10 +266,10 @@ const HeroSection = () => {
                             <a className="text-sm" href="https://pump.fun/coin/JCSCrUNgdwTiEgtzw8AhcscEh77rf9j3ja73LmJypump" target="_blank">PumpFun</a>
                         </div>
                         <div className="flex flex-col gap-2 w-full">
-                            <a className="text-sm" href="https://x.com/aether_fall/" target="_blank">{`X (Twitter)`}</a>
-                            <a className="text-sm" href="https://t.me/aether_fall/" target="_blank">Telegram</a>
-                            <a className="text-sm" href="https://twitch.com/aether_fall/" target="_blank">Twitch</a>
-                            <a className="text-sm" href="https://youtube.com/@Aether_Fall/" target="_blank">Youtube</a>
+                            <a className="text-sm" href="https://x.com/arcfall/" target="_blank">{`X (Twitter)`}</a>
+                            <a className="text-sm" href="https://t.me/arcfall/" target="_blank">Telegram</a>
+                            <a className="text-sm" href="https://twitch.com/arcfall/" target="_blank">Twitch</a>
+                            <a className="text-sm" href="https://youtube.com/@arcfall/" target="_blank">Youtube</a>
                         </div>
                     </div>
                 </div>
